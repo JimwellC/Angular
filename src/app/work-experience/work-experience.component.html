@@ -1,1 +1,11 @@
-<p>work-experience works!</p>
+<div class="work-experience">
+  <h2 class="section-title">
+    <span class="icon-holder"><i class="fas fa-briefcase"></i></span> Work Experience
+  </h2>
+  <div *ngFor="let experience of workExperienceList" class="work-experience-item">
+    <h3>{{ experience.position }}</h3>
+    <p><strong>Company:</strong> {{ experience.company }}</p>
+    <p><strong>Duration:</strong> {{ experience.duration }}</p>
+    <p>{{ experience.description }}</p>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.work-experience {
+  background-color: #ffffff; /* White background for a clean look */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.work-experience h2 {
+  color: #007bff;
+  margin-top: 0;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.work-experience-item {
+  margin-bottom: 20px;
+}
+
+.work-experience-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.work-experience-item p {
+  margin: 5px 0;
+  color: #6c757d;
+}

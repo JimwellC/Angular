@@ -1,0 +1,17 @@
+.certifications {
+  margin-top: 20px;
+}
+
+.certifications h3 {
+  color: #333;
+}
+
+.certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certifications li {
+  margin: 5px 0;
+  color: #6c757d;
+}
